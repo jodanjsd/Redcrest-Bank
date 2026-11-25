@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Redcrest digital banking mobile app and contactless debit card">
+  <defs>
+    <linearGradient id="darkRuby" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0C0E" />
+      <stop offset="55%" stop-color="#220910" />
+      <stop offset="100%" stop-color="#090B0E" />
+    </linearGradient>
+    <radialGradient id="crimsonAura" cx="0.72" cy="0.45" r="0.48">
+      <stop offset="0%" stop-color="#E11D38" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#0B0C0E" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="metalCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E2028" />
+      <stop offset="50%" stop-color="#111318" />
+      <stop offset="100%" stop-color="#2B0B12" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#darkRuby)" />
+  <rect width="1600" height="900" fill="url(#crimsonAura)" />
+
+  <!-- Subtle architectural radial grid -->
+  <g stroke="#FFFFFF" stroke-opacity="0.06" fill="none">
+    <circle cx="1150" cy="450" r="210" />
+    <circle cx="1150" cy="450" r="330" />
+    <circle cx="1150" cy="450" r="460" />
+  </g>
+
+  <!-- Sleek Smartphone Banking Showcase -->
+  <g transform="translate(1030, 120)">
+    <rect x="0" y="0" width="320" height="650" rx="42" fill="#090A0D" stroke="#3F3F46" stroke-width="3" />
+    <rect x="14" y="14" width="292" height="622" rx="32" fill="#FAFAFA" />
+    <!-- Top Crimson Card inside Phone -->
+    <rect x="30" y="48" width="260" height="150" rx="18" fill="#C8102E" />
+    <rect x="48" y="72" width="84" height="10" rx="4" fill="#FFFFFF" opacity="0.65" />
+    <rect x="48" y="102" width="165" height="24" rx="5" fill="#FFFFFF" opacity="0.95" />
+    <rect x="48" y="150" width="110" height="12" rx="4" fill="#FCA5A5" opacity="0.7" />
+    <!-- Quick action squares -->
+    <rect x="30" y="218" width="78" height="64" rx="12" fill="#F4F4F5" />
+    <rect x="121" y="218" width="78" height="64" rx="12" fill="#F4F4F5" />
+    <rect x="212" y="218" width="78" height="64" rx="12" fill="#F4F4F5" />
+    <!-- Transaction rows -->
+    <rect x="30" y="310" width="260" height="58" rx="12" fill="#FFFFFF" stroke="#E4E4E7" />
+    <rect x="30" y="380" width="260" height="58" rx="12" fill="#FFFFFF" stroke="#E4E4E7" />
+    <rect x="30" y="450" width="260" height="58" rx="12" fill="#FFFFFF" stroke="#E4E4E7" />
+    <rect x="30" y="542" width="260" height="52" rx="14" fill="#18181B" />
+  </g>
+
+  <!-- Floating Metallic Crimson Card overlapping smartphone -->
+  <g transform="translate(830, 420) rotate(-10)">
+    <rect x="0" y="0" width="350" height="218" rx="20" fill="url(#metalCard)" stroke="#E11D38" stroke-opacity="0.55" stroke-width="2" />
+    <rect x="0" y="0" width="350" height="218" rx="20" fill="#E11D38" opacity="0.08" />
+    <rect x="32" y="74" width="48" height="36" rx="6" fill="#FBBF24" opacity="0.9" />
+    <path d="M292,50 C304,64 304,84 292,98" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.65" />
+    <path d="M306,42 C324,62 324,86 306,106" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.45" />
+    <rect x="32" y="152" width="180" height="12" rx="4" fill="#FFFFFF" opacity="0.85" />
+    <rect x="32" y="176" width="110" height="10" rx="3" fill="#9CA3AF" opacity="0.7" />
+    <circle cx="292" cy="168" r="18" fill="#C8102E" opacity="0.9" />
+    <circle cx="312" cy="168" r="18" fill="#F59E0B" opacity="0.8" />
+  </g>
+</svg>

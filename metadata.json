@@ -1,0 +1,6 @@
+{
+  "name": "Redcrest Digital Bank",
+  "description": "Nigerian digital banking web portal, instant BVN/NIN/CAC NUBAN onboarding, NIP funds transfer, bills, and 24/7 AI virtual banker.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Cross-border diaspora Naira and FX banking bridge">
+  <defs>
+    <linearGradient id="p4bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0C111D" />
+      <stop offset="60%" stop-color="#1E1B2E" />
+      <stop offset="100%" stop-color="#2D0C15" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#p4bg)" />
+  <!-- Globe Meridian Arcs -->
+  <g stroke="#FFFFFF" stroke-opacity="0.14" fill="none" stroke-width="1.5">
+    <circle cx="400" cy="300" r="210" />
+    <ellipse cx="400" cy="300" rx="115" ry="210" />
+    <ellipse cx="400" cy="300" rx="210" ry="85" />
+    <line x1="190" y1="300" x2="610" y2="300" />
+  </g>
+  <!-- Cross-border corridor nodes -->
+  <circle cx="290" cy="230" r="9" fill="#F59E0B" />
+  <circle cx="515" cy="340" r="11" fill="#E11D38" />
+  <path d="M290,230 Q410,165 515,340" fill="none" stroke="#FBBF24" stroke-width="2.5" stroke-dasharray="6 6" />
+  <!-- Multi-currency bridge cards -->
+  <rect x="110" y="385" width="180" height="110" rx="14" fill="#FFFFFF" opacity="0.95" />
+  <rect x="130" y="408" width="52" height="10" rx="4" fill="#0F172A" />
+  <rect x="130" y="432" width="120" height="18" rx="4" fill="#C8102E" />
+  <rect x="510" y="105" width="180" height="110" rx="14" fill="#FFFFFF" opacity="0.95" />
+  <rect x="530" y="128" width="52" height="10" rx="4" fill="#0F172A" />
+  <rect x="530" y="152" width="120" height="18" rx="4" fill="#047857" />
+</svg>

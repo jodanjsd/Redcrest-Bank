@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Nigerian SME entrepreneur studio and contactless POS payment">
+  <defs>
+    <linearGradient id="studioWall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#171416" />
+      <stop offset="55%" stop-color="#271418" />
+      <stop offset="100%" stop-color="#101216" />
+    </linearGradient>
+    <radialGradient id="warmLamp" cx="0.68" cy="0.32" r="0.5">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.38" />
+      <stop offset="55%" stop-color="#C8102E" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="oakCounter" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5C3A21" />
+      <stop offset="50%" stop-color="#7C4F2D" />
+      <stop offset="100%" stop-color="#3F2614" />
+    </linearGradient>
+    <linearGradient id="cardCrimson" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E11D38" />
+      <stop offset="100%" stop-color="#88081D" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#studioWall)" />
+  <rect width="1600" height="900" fill="url(#warmLamp)" />
+
+  <!-- Architectural studio shelves in background -->
+  <g opacity="0.35" stroke="#E5E7EB" stroke-opacity="0.18" stroke-width="2">
+    <line x1="880" y1="180" x2="1520" y2="180" />
+    <line x1="880" y1="340" x2="1520" y2="340" />
+    <rect x="920" y="95" width="70" height="85" rx="6" fill="#2A2E39" />
+    <rect x="1020" y="115" width="110" height="65" rx="6" fill="#3A262B" />
+    <rect x="1160" y="85" width="80" height="95" rx="6" fill="#2A2E39" />
+    <rect x="1280" y="235" width="120" height="105" rx="6" fill="#332924" />
+  </g>
+
+  <!-- Studio entrepreneur silhouette at retail counter -->
+  <g transform="translate(880, 175)">
+    <circle cx="290" cy="140" r="60" fill="#2C1D18" />
+    <path d="M235,115 C242,68 338,65 348,118 C332,92 260,92 235,115 Z" fill="#140D0B" />
+    <path d="M145,515 L175,275 C182,228 232,208 290,208 C350,208 398,230 408,278 L435,515 Z" fill="#1F2937" />
+    <path d="M250,208 L290,295 L330,208 Z" fill="#F1F5F9" opacity="0.9" />
+  </g>
+
+  <!-- Foreground oak retail counter -->
+  <polygon points="560,670 1600,620 1600,900 480,900" fill="url(#oakCounter)" />
+  <line x1="560" y1="670" x2="1600" y2="620" stroke="#FDE68A" stroke-opacity="0.25" stroke-width="2" />
+
+  <!-- Modern contactless POS terminal & Crimson card -->
+  <g transform="translate(930, 505)">
+    <rect x="0" y="30" width="175" height="230" rx="18" fill="#111318" stroke="#374151" stroke-width="2" />
+    <rect x="16" y="48" width="143" height="110" rx="10" fill="#047857" opacity="0.92" />
+    <circle cx="88" cy="95" r="22" fill="#FFFFFF" opacity="0.18" />
+    <path d="M77,95 L85,103 L101,86" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="26" y="176" width="34" height="18" rx="4" fill="#27272A" />
+    <rect x="70" y="176" width="34" height="18" rx="4" fill="#27272A" />
+    <rect x="114" y="176" width="34" height="18" rx="4" fill="#27272A" />
+    <rect x="26" y="204" width="34" height="18" rx="4" fill="#27272A" />
+    <rect x="70" y="204" width="34" height="18" rx="4" fill="#27272A" />
+    <rect x="114" y="204" width="34" height="18" rx="4" fill="#C8102E" />
+  </g>
+
+  <g transform="translate(1150, 585) rotate(-12)">
+    <rect x="0" y="0" width="250" height="156" rx="16" fill="url(#cardCrimson)" stroke="#FCA5A5" stroke-opacity="0.35" stroke-width="1.5" />
+    <rect x="24" y="54" width="38" height="28" rx="5" fill="#FCD34D" opacity="0.9" />
+    <rect x="24" y="114" width="130" height="10" rx="3" fill="#FFFFFF" opacity="0.8" />
+    <circle cx="204" cy="116" r="14" fill="#FFFFFF" opacity="0.25" />
+    <circle cx="220" cy="116" r="14" fill="#F59E0B" opacity="0.45" />
+  </g>
+
+  <rect width="840" height="900" fill="#120B0E" opacity="0.58" />
+</svg>
